@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: olivedrab;
+}
+
+nav img{
+    width: 75px;
+    height: 55px;
+    margin-top: 8px;
+    margin-left: -0.5px;
+}
+
+.navlinks li{
+    display: inline-flex;
+    padding: 30px;
+    margin-left: 7%;
+}
+
+.header{
+    background-image: url(header.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 8%;
+    margin: 8px;
+}
+
+ .welcome p{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 3%;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: larger;
+    padding: 5%;
+    font-weight: bolder;
+}
+
+input{
+    text-align: center;
+}
+
+form{
+    justify-self: center;
+    padding-bottom: 8%;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
